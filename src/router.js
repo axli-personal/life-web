@@ -1,10 +1,12 @@
+import { createRouter, createWebHistory } from 'vue-router';
 import Home from './components/Home.vue';
 import Health from './components/Health.vue';
-import { createRouter, createWebHistory } from 'vue-router';
+import Training from './components/Training.vue';
 
 const routes = [
   { path: '/', component: Home },
   { path: '/health', component: Health },
+  { path: '/training', component: Training },
 ];
 
 const router = createRouter({
