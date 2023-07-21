@@ -10,5 +10,9 @@ export function addTrainingNote(args) {
     comment: args.comment.value,
   };
 
-  return axios.post(`${backend}/training-record/note`, body);
+  return axios.post(`${backend}/training/note`, body);
+}
+
+export function listTrainingNote(args) {
+  return axios.post(`${backend}/training/note/list`);
 }

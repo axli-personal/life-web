@@ -61,8 +61,4 @@ async function submit() {
   border-bottom: 1px solid #dcdfe6;
   margin-bottom: 20px;
 }
-
-#page-form {
-  width: 500px;
-}
 </style>

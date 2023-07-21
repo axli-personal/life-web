@@ -1,12 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from './components/Home.vue';
 import Health from './components/Health.vue';
-import Training from './components/Training.vue';
+import ListTraining from './components/ListTraining.vue';
 
 const routes = [
   { path: '/', component: Home },
   { path: '/health', component: Health },
-  { path: '/training', component: Training },
+  { path: '/training', component: ListTraining },
 ];
 
 const router = createRouter({
